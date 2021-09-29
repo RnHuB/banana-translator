@@ -1,0 +1,54 @@
+         body{
+             background-image:url("images/banana.gif");
+             color: var(--primary-color);
+             background-size: cover;
+             
+
+         }
+
+         textarea{
+             
+             display: block;
+             width: 40rem;
+             height: 5rem;
+             border: 2px solid black;
+             
+
+         }
+         h1{
+             font-size: 8vh;
+             margin-left: 9rem;
+             padding-top: 1rem;
+             padding-bottom: 3rem;
+             
+         }
+         h2{
+             margin-left: 10rem;
+             padding-top: 1rem;
+             padding-bottom: 1rem;
+
+         }
+         #btn-translate{
+             
+             display: block;
+             margin-left: 16rem;
+             margin-block-start: 1em;
+             margin-block-end: 1em;
+             padding: 15px 20px; 
+             border-color: black;
+             border-width: 1px;
+             border-radius: .5rem;
+             background-color:var(--primary-color);
+             font-size: 3vh;
+         }
+        
+         #output{
+             border: 2px solid black;
+             height: 5rem;
+             width: 40rem;
+             display: block;
+             
+             background-color: white;
+             color: black;
+         }
+         
