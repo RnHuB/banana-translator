@@ -1,8 +1,7 @@
          body{
-             background-image:url("images/banana.gif");
+             background-image:url("images/bananaPic.jpg");
              color: var(--primary-color);
              background-size: cover;
-             
 
          }
 
@@ -11,21 +10,30 @@
              display: block;
              width: 40rem;
              height: 5rem;
-             border: 2px solid black;
+             border: 2px solid grey;
+             box-shadow: 4px 4px 4px 4px yellow;
+             background-color: lightcyan;
+             font-size: larger;
              
 
          }
          h1{
-             font-size: 8vh;
-             margin-left: 9rem;
+             font-size: 10vh;
+             margin-left: 4rem;
              padding-top: 1rem;
              padding-bottom: 3rem;
+             font-family: Arial, Helvetica, sans-serif;
+             color: yellowgreen;
+            
+
              
          }
          h2{
              margin-left: 10rem;
              padding-top: 1rem;
              padding-bottom: 1rem;
+             color: yellow;
+             font-family: Arial, Helvetica, sans-serif;
 
          }
          #btn-translate{
@@ -35,20 +43,25 @@
              margin-block-start: 1em;
              margin-block-end: 1em;
              padding: 15px 20px; 
-             border-color: black;
+             border-color: yellow;
              border-width: 1px;
              border-radius: .5rem;
-             background-color:var(--primary-color);
+             background-color:Green;
              font-size: 3vh;
+             color: white;
          }
         
          #output{
-             border: 2px solid black;
+             border: 2px solid grey;
              height: 5rem;
              width: 40rem;
              display: block;
+             box-shadow: 4px 4px 4px 4px yellow;
+             background-color: lightcyan;
+             color: darkgreen;
+
              
-             background-color: white;
-             color: black;
+             font-family: Arial, Helvetica, sans-serif;
          }
-         
+
+     
